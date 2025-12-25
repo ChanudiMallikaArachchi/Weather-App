@@ -1,0 +1,98 @@
+/* General Styling */
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Weather App Container */
+.weather-app {
+    background: rgba(85, 116, 163, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    text-align: center;
+}
+
+/* Search Section */
+.search-input {
+    max-width: 300px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.search-btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #174a7e;
+    transform: scale(1.05);
+}
+
+/* Current Weather Section */
+.weather-card {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.image2 {
+    height: 70px;
+    width: 70px;
+}
+
+.weather-card h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.weather-card h3 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.weather-card p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+/* Forecast Section */
+.forecast-container {
+    gap: 10px;
+}
+
+.forecast-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    color: #fff;
+}
+
+.forecast-card h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.forecast-card .temp {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.forecast-card .desc {
+    font-size: 1rem;
+}
+
