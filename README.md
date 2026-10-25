@@ -5,11 +5,11 @@ A simple JavaScript weather application that lets users search for a city and vi
 ## Features
 
 - Search weather by city or country name
-- Display current temperature, condition, and location
+- Display current temperature, condition and location
 - Show weather icons for current conditions
 - Display forecast for today and tomorrow
 - Include yesterday's weather comparison
-- Responsive layout using HTML, CSS, and Bootstrap
+- Responsive layout using HTML, CSS and Bootstrap
 
 ## Tech Stack
 
@@ -32,7 +32,7 @@ Weather-App/
 
 ## How it works
 
-The app uses the WeatherAPI service to fetch real-time weather and forecast data based on a user-entered city. The JavaScript file processes the API response and updates the DOM elements in the interface.
+The app uses the WeatherAPI service to fetch realtime weather and forecast data based on a user-entered city. The JavaScript file processes the API response and updates the DOM elements in the interface.
 
 ## Run locally
 
